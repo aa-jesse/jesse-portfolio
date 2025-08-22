@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jesse Adu Akowuah — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="dark">
+  <header class="nav">
+    <a href="#home" class="brand">Jesse Adu Akowuah</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#volunteering">Volunteering</a>
+      <a href="#skills">Skills</a>
+      <a href="#publications">Published Work</a>
+      <a href="#certs">Certifications</a>
+      <a href="#contact">Contact</a>
+      <button id="themeToggle">●</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section hero">
+      <div class="container hero-inner">
+        <img id="heroPhoto" class="avatar" src="assets/placeholder-avatar.png" alt="Portrait of Jesse" />
+        <div>
+          <h1 id="heroName">Jesse Adu Akowuah</h1>
+          <p id="heroTagline">Transportation Engineering • Data & Modeling</p>
+          <div class="cta-row">
+            <a id="cvLink" class="btn" href="#">CV</a>
+            <a id="linkedinLink" class="btn ghost" href="#">LinkedIn</a>
+            <a id="linktreeLink" class="btn ghost" href="#">Linktree</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p id="aboutText"></p>
+        <div id="highlights"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2>Projects</h2>
+        <div id="projectsGrid" class="grid"></div>
+      </div>
+    </section>
+
+    <section id="volunteering" class="section">
+      <div class="container">
+        <h2>Volunteering</h2>
+        <div id="volGrid"></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills">
+          <ul id="skillsTools"></ul>
+          <ul id="skillsMethods"></ul>
+          <ul id="skillsDomains"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <div class="container">
+        <h2>Published Work</h2>
+        <ol id="pubList"></ol>
+      </div>
+    </section>
+
+    <section id="certs" class="section alt">
+      <div class="container">
+        <h2>Certifications</h2>
+        <ul id="certList"></ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="icons">
+          <a id="linkedinIcon" href="#">LinkedIn</a>
+          <a id="linktreeIcon" href="#">Linktree</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container small">
+      © <span id="year"></span> Jesse Adu Akowuah
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

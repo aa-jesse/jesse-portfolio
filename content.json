@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "name": "Jesse Adu Akowuah",
+    "tagline": "Transportation Engineering • Data & Modeling",
+    "photo": "assets/placeholder-avatar.png",
+    "links": {
+      "cv": "#",
+      "linkedin": "https://www.linkedin.com/in/jesse-adu-akowuah/",
+      "linktree": "https://linktr.ee/your-handle"
+    }
+  },
+  "about": "Graduate student in Transportation Engineering at Tennessee Tech. I analyze NHTS data to understand older adult mobility and build trip generation models.",
+  "projects": [
+    { "title": "Trip Generation Modeling", "summary": "Poisson & Negative Binomial regression on NHTS 2009/2022 data." },
+    { "title": "Temporal Distribution Dashboard", "summary": "Plotly dashboard for trip start-time distributions." }
+  ],
+  "skills": {
+    "tools": ["Python","R","ArcGIS","VISSIM","Excel"],
+    "methods": ["Trip Generation","Regression","Descriptive Stats"],
+    "domains": ["Mobility","Safety","Older Adults"]
+  },
+  "publications": [
+    { "cite": "Thesis (expected 2026)", "url": "#" }
+  ],
+  "certs": [
+    { "name": "AWS Cloud Practitioner", "url": "#" }
+  ]
+}

@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #0b0f14;
+  color: #e6e8eb;
+}
+.nav { display: flex; justify-content: space-between; padding: 1rem; background: #121823; }
+.nav a { color: #a5adba; margin-right: 1rem; text-decoration: none; }
+.nav a:hover { color: white; }
+.section { padding: 60px 0; }
+.section.alt { background: #121823; }
+.container { width: 90%; margin: auto; }
+.btn { background: #7aa2f7; padding: 0.5rem 1rem; border-radius: 6px; color: black; text-decoration: none; }
+.btn.ghost { background: transparent; border: 1px solid #1f2733; color: #e6e8eb; }
+.avatar { width: 120px; border-radius: 12px; }
+.grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+.footer { padding: 1rem; text-align: center; background: #121823; color: #a5adba; }
